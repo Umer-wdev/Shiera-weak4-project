@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Umer Kedir | Portfolio</title>
+</head>
+
+<body class="bg-gray-100">
+
+<header class="bg-white shadow-md py-6">
+
+    <h1 class="text-5xl font-bold text-center text-purple-600">
+    Umer Kedir
+</h1>
+
+    <nav class="flex justify-center gap-8 font-semibold text-lg">
+        <a href="index.html" class="hover:text-violet-600 transition">Home</a>
+        <a href="projects.html" class="hover:text-violet-600 transition">Projects</a>
+        <a href="contact.html" class="hover:text-violet-600 transition">Contact</a>
+    </nav>
+    <button id="theme-toggle"
+class="bg-violet-600 text-white px-4 py-2 rounded-lg">
+🌙 Dark Mode
+</button>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>Hi, I'm Umer Kedir 👋</h2>
+
+<p>
+Freshman Student at Jimma University.
+Aspiring Full-Stack Web Developer and
+Founder of Campus Study Hub.
+</p>
+
+<a href="projects.html"
+class="inline-block bg-violet-600 hover:bg-violet-700 text-white font-semibold px-6 py-3 rounded-xl shadow-lg transition">
+View Projects
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/umer.png"
+alt="Umer Kedir"
+class="profile-image">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>About Me</h2>
+
+<p>
+I enjoy learning web development and
+creating educational content for university
+students through Campus Study Hub.
+My goal is to become a professional
+Full-Stack Developer.
+</p>
+
+</section>
+
+<section>
+
+<h2>Skills</h2>
+
+<ul>
+
+<li>HTML5</li>
+
+<li>CSS3</li>
+
+<li>Git & GitHub</li>
+
+<li>Responsive Web Design</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Education</h2>
+
+<p>
+
+🎓 Jimma University
+
+</p>
+
+<p>
+
+📚 Shiera Web Development Scholarship
+
+</p>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+© 2026 Umer Kedir
+</p>
+
+</footer>
+<script>
+const btn = document.getElementById("theme-toggle");
+
+btn.onclick = function () {
+    document.body.classList.toggle("dark-mode");
+};
+</script>
+
+</body>
+</html>
