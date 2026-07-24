@@ -267,7 +267,15 @@ body{
 
 .dark-mode header,
 .dark-mode footer,
-.dark-mode section,
-{
+.dark-mode section{
     background:#1f1f1f;
+}
+
+.dark-mode .project-card{
+    background:#1f1f1f;
+}
+
+.dark-mode .project-card h3,
+.dark-mode .project-card p{
+    color:white !important;
 }
